@@ -48,7 +48,7 @@ flink-ecommerce/
 ```
 ┌─────────────────────┐    ┌──────────────────────────┐    ┌─────────────────────┐
 │   Python Data       │───▶│   Kafka Topic:           │───▶│   Flink             │
-│   Generator          │    │   financial_transactions │    │   DataStreamJob     │
+│   Generator         │    │   financial_transactions │    │   DataStreamJob     │
 │   (Faker + Kafka)   │    │   (Message Queue)        │    │   (Stream Processor)│
 └─────────────────────┘    └──────────────────────────┘    └─────────────────────┘
                                                                        │
